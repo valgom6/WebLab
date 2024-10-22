@@ -1,0 +1,120 @@
+body{
+    background-color:rgb(98, 213, 175) 
+}
+header{
+    background-color:rgb(115, 115, 219);
+    width:960px;
+    height: 200px;
+    padding: 20px;
+    border-width: 5px;
+    border-color:rgb(101, 159, 174);
+    border-style: solid;
+    margin-left:auto;
+    margin-right: auto;
+    margin-top: -8px;
+   margin-bottom: 50px; 
+
+}
+main{
+    background-color: rgb(176, 99, 99);
+    width:960px;
+    height:auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-width: 5px;
+    border-color: violet;
+    border-style: dotted; 
+    margin: 0 auto; /* set top and bottom to 0 and left and right to auto */
+    margin-bottom: 50px;
+}
+footer{
+    background-color:rgb(127, 127, 227);
+    width:960px;
+    height: 0;
+    padding: 20px 20px 20px 20px; /* top bottom left and right */
+    border-top-width: 10px;
+    border-top-color: rgb(157, 197, 222);
+    border-top-style: groove;
+    margin-left: auto;
+    margin-right:auto;
+    margin-top: 10px; 
+}
+h1{
+    background-color:rgb(120, 215, 215);
+    font-family:'Courier New', Courier, monospace;
+}
+p{
+    color:azure;
+    line-height:30px;
+
+}
+h1{
+    background-color: rgb(83, 143, 121);
+    font-family: 'Times New Roman', Times, serif;
+}
+h2{
+    text-align: right;
+    color:rgb(49, 179, 181);
+    font-family: 'roboto', sans-serif
+} 
+ol{
+    font-family: 'Times New Roman', Times, serif;
+    color:rgb(205, 172, 133);
+}
+ul{
+    color:rgb(49, 179, 181);
+    font-family: 'Times New Roman', Times, serif; 
+
+}
+h3{
+    margin-left: 0;
+    margin-right: 200px;
+    font-family: 'Times New Roman', Times, serif; 
+}
+p {
+    color:rgb(107, 35, 68);
+    line-height: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-palette: palette-mix(in lch, --one, --two);
+    font-variant-emoji: emoji;
+}
+.imageGallery {
+    width: 300px; 
+    border: 10px solid white;
+    box-shadow: 0 4px 8px rgb(120, 215, 215);
+    padding: 10px;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a: hoover { 
+    text-decoration: underline;
+    color: white;
+} 
+
+nav a {
+    background-color: rgb(98, 213, 175);
+    width: 320px;
+    padding: 20px;
+    margin: 0 auto;
+}
+nav a { 
+    font-size: 20px;
+    margin-right: 40px;
+    font-family: "Roboto", sans-serif;
+}
+
+.leftNav { 
+    margin-left: 30px;
+}
+
+.centerImage {
+    width:800px;
+    display:block;
+    margin: 0 auto;  
+    filter: drop-shadow(30px 10px 4px #4444dd); 
+}
